@@ -1,0 +1,8 @@
+# Photoshop Files
+*.psd
+
+# Images
+*.png
+
+# Python
+*.py
