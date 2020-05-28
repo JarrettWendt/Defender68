@@ -93,7 +93,7 @@ InvalPlayer:
 	move.l	#PLAYER_DIMENSIONS, d1
 	bsr.w	DrawBlackRect
 
-	lea.l	backgroundBMP, a0					; Now to draw the alpha'd bitmap over the player.
+	lea.l	backgroundBMP, a0				; Now to draw the alpha'd bitmap over the player.
 	move.l	playerPositionLastFrame, d0		; draw  x, y
 	move.l	d0, d1							; chunk x, y
 	move.l	#PLAYER_DIMENSIONS, d2			; chunk width, height
