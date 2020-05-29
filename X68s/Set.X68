@@ -8,13 +8,13 @@
 *
 * Following is an example declaration of this Set:
 * NUM_SET	equ		16
-* myQueue:
+* mySet:
 * .maxIndex	dc.w	NUM_SET-1	; The index of the last element.
 * .bytesPer	dc.l	2			; Must be even.
 * .array	ds.w	NUM_Q
 *-----------------------------------------------------------
 
-; Byte-offsets of variables in the Queue header.
+; Byte-offsets of variables in the Set header.
 SET_CAPACITY	equ	0
 SET_BYTES_PER	equ	2
 SET_ARRAY		equ	6

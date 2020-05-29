@@ -3,4 +3,4 @@
 An 8-bit arcade game made in the Motorola 68000 assembly language. An homage to the Defender arcade games of yore.
 
 ## Dependencies
-[EASy68K](http://www.easy68k.com/) (or otherwise your 68000 assembler/simulator of your choice)
+[EASy68K](http://www.easy68k.com/)

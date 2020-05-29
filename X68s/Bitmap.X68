@@ -119,7 +119,7 @@ DrawProcessedBitmap:
 	bsr.b	InterpretHeader
 
 .Loop:
-	move.l	-(a0), d1		; Get the color for this pixel from the array. It will be in format GGBBRRAA.
+	move.l	-(a0), d1		; Get the color for this pixel from the array. It will be in format 00GGBBRR.
 
 	; NOTE: btst-ing memory might be a good option here. It could speed up alpha pixels a little at the expense of double memory access for non-alphas.
 	bclr.l	#31, d1			; Test the MSB to see if there's alpha. This also sets the bit to 0 so the most significant byte is zeroed out like the DRAWPIXEL trap code wants.
