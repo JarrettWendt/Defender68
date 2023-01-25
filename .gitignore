@@ -6,3 +6,7 @@
 
 # Python
 *.py
+
+# Compiled 68K files
+*.L68
+*.S68
